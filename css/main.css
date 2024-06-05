@@ -1,12 +1,12 @@
-*{
+*{padding: 0;
     margin: 0;
-    padding: 0;
+  
     box-sizing: border-box;
   }
   
   :root {
-    --cor-principal: rgb(123, 0, 255);
-    --cor-secundaria: rgb(237, 220, 255);
+    --cor-principal: rgb(7, 9, 148);
+    --cor-secundaria: rgb(25, 80, 197);
   }
   
   header {
@@ -17,6 +17,7 @@
     justify-content: space-around;
     align-items: center;
     position: fixed;
+
   }
   
   header h1{
@@ -69,7 +70,7 @@
   .sobre {
     width: 100%;
     height: 600px;
-    background-color: var(--cor-principal);
+    background-color: var(--cor-secundaria);
     display: flex;
     justify-content: space-evenly;
     align-items: center
@@ -77,14 +78,14 @@
   
   .texto-sobre{
     width: 500px;
-    color: var(--cor-secundaria);
-    font-size: 22px;
+    color: var(--cor-principal);
+    font-size: 30px;
   }
   
   .sobre h1{
-    color: var(--cor-secundaria);
+    color: var(--cor-principal);
     font-size: 60px;
-    margin-bottom: 30px;
+    margin-bottom:30px;
   }
   
   .sobre h2{
@@ -96,7 +97,7 @@
   
   .habilidade{
     font-size: 22px;
-    font-weight: 900;
+    font-weight: 100v;
     margin-bottom: 10px;
   }
   
@@ -110,14 +111,10 @@
   
   
   
-  .jogos h2{
-    font-size: 40px;
-    color: var(--cor-principal);
-  }
   
   footer {
     width: 100%;
-    height: 100px;
+    height: 20vh;
     background-color: var(--cor-principal);
     display: flex;
     justify-content: space-around;
@@ -125,6 +122,103 @@
   }
   
   footer p{
-    font-size: 22px;
+    font-size: 20px;
     color: var(--cor-secundaria);
   }
+  img{
+     width: 200px;
+  }
+  
+  .habilidade{
+    background-color: var(--cor-secundaria);
+    display: flex;
+    justify-content: center;
+    
+    font-size: 50px;
+    height: 100px;
+    margin: 0;
+  }
+  .habilidades{
+    font-size: 30px;
+  
+    background-color: var(--cor-secundaria);
+color: var(--cor-principal);
+
+    
+    
+  }
+  .sites{
+
+    background-color:var(--cor-secundaria);
+    font-size: 25px;
+    display:flex;
+    justify-content: center;
+    background-color: var(--cor-secundaria);
+    height: 100px;
+
+  }
+  .projetos{
+color: var(--cor-principal);
+font-size: 60px;
+margin-right: 40px;
+  }
+  
+#contador{
+margin-right: 60px;
+}
+.tarefas{
+  margin-right: 19px;
+}
+.começo{
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.projeto{
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.eu{
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.ajuda{
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.eliti{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: black;
+  
+    
+  
+  
+}
+.eliti:hover{
+  background-color: rgb(9, 2, 105);
+  border-radius: 20px;
+}
+
+
+.ajuda:hover{
+  background-color: rgb(9, 2, 105);
+  border-radius: 10px;
+}
+
+.eu:hover{
+  background-color: rgb(9, 2, 105);
+  border-radius: 10px;
+}
+
+.projeto:hover{
+  background-color: rgb(9, 2, 105);
+  border-radius: 10px;
+}
+
+.começo:hover{
+  background-color: rgb(9, 2, 105);
+  border-radius: 10px;
+
+}
+
+
